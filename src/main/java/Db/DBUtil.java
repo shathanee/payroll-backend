@@ -7,6 +7,7 @@ import java.sql.SQLException;
 public class DBUtil {
     private static final String URL = "jdbc:postgresql://localhost:5432/payroll";
     private static final String USER = "";
+    System.out.println(URL);
     private static final String PASSWORD = "";
 
     static {
